@@ -1,1 +1,21 @@
 git init 초기화 폴더 지정 git 저장소에 올릴 폴더 지정
+
+git add . (. 모든파일 다 올릴 계획임)
+
+git config --global user.email kty4606@gmail.com(git hub에 올릴 환경 사용자 이메일)
+
+git config --global user.name kty4606
+
+git commit -m "first time" (깃허브 올릴때 사용할 메시지 주석)
+(git hub 에 올릴 환경 사용자 이름)
+
+git remote add origin https://github.com/kty4606/KB.git
+(어디서버에 올릴지 지정)
+git push origin master
+(서버에 올려라)
+
+
+ex07.html 
+깃허브에 올릴껀데
+ex07.html 수정 다시 올리고 나서 
+ex07.html 
